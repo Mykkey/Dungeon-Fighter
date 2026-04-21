@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Player Movement Stats
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementStats
   maxWalkSpeed: 12.5
-  groundAcceleration: 0.25
-  groundDeceleration: 0.25
-  airAcceleration: 0.25
-  airDeceleration: 0.25
+  groundAcceleration: 5
+  groundDeceleration: 20
+  airAcceleration: 5
+  airDeceleration: 5
   maxRunSpeed: 20
   groundLayer:
     serializedVersion: 2

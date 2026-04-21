@@ -19,9 +19,9 @@ public class InputManager : MonoBehaviour
     {
         playerInput = GetComponent<PlayerInput>();
 
-        moveAction = playerInput.actions["Move"];
-        jumpAction = playerInput.actions["Jump"];
-        runAction = playerInput.actions["Run"];
+        moveAction = playerInput.actions["move"];
+        jumpAction = playerInput.actions["jump"];
+        runAction = playerInput.actions["run"];
     }
 
     private void Update()
