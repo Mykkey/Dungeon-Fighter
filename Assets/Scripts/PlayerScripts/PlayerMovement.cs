@@ -103,7 +103,6 @@ public class PlayerMovement : MonoBehaviour
     private void JumpChecks()
     {
         if (InputManager.jumpWasPressed) {
-            Debug.Log("jumping");
             jumpBufferTimer = playerMovementStats.JumpBufferTime;
             jumpReleasedDuringBuffer = false;
         }
