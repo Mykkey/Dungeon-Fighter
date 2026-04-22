@@ -123,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (jumpBufferTimer > 0 && isJumping && (isGrounded || coyoteTimer > 0)) {
+        if (jumpBufferTimer > 0 && !isJumping && (isGrounded || coyoteTimer > 0)) {
             InitiateJump(1);
 
             if (jumpReleasedDuringBuffer) {
